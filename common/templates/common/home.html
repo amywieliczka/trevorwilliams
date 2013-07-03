@@ -1,0 +1,27 @@
+{% load staticfiles %}
+
+<html>
+<head>
+    <title>Trevor Williams</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'common/css/reset.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'common/css/fonts.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'common/css/trevor-home.css' %}">
+    
+    <script src="{% static 'common/js/jquery-1.10.1.min.js' %}"></script>
+    <script src="{% static 'common/js/trevor.js' %}"></script>
+</head>
+<body>
+    <header>Trevor Williams</header>
+    <nav>
+        <ul>
+            {% for n in navs %}
+                <li id="{{ n.slug }}"><a href="/{{ n.slug }}/">{{n.title}}</a></li>
+            {% endfor %}
+            <!-- <li id="about"><a href="about.html">About</a></li>
+            <li id="modalities"><a href="modalities.html">Modalities</a></li>
+            <li id="expectations"><a href="expectations.html">What to Expect</a></li>
+            <li id="contact"><a href="contact">Contact</a></li> -->
+        </ul>
+    </nav>
+</body>
+</html>

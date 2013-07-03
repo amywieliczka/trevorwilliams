@@ -1,0 +1,42 @@
+{% load staticfiles %}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Trevor Williams</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'common/css/reset.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'common/css/fonts.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'common/css/trevor-new.css' %}">
+    
+    <script src="{% static 'common/js/jquery-1.10.1.min.js' %}"></script>
+    <script src="{% static 'common/js/trevor-content.js' %}"></script>
+
+</head>
+<body>
+    <div id="backgroundFlower">
+    </div>
+    <div id="firstGradient">
+    </div>
+    <div id="aboutSection">
+        <header>
+            <div id="logo"><a href="/">Trevor Williams</a></div>
+            <nav>
+                <ul>
+                    {% for n in navs %}
+                        <li id="{{ n.slug }}"><a href="#{{ n.slug }}Section">{{n.title}}</a></li>
+                    {% endfor %}
+                </ul>
+            </nav>
+        </header>
+        <div id="content">
+             <h1>{{page.title}}</h1>
+             <h2>{{page.slug}}</h2>
+             <p>{{page.text}}</p>
+         </div>
+    </div>
+    <div id="secondGradient">
+    </div>
+    <div id="thirdGradient">
+    </div>
+</body>
+</html>

@@ -1,0 +1,158 @@
+#backgroundFlower {
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background: url(../images/background-row-lg-end-2.png) repeat-y center top;
+    position: absolute;
+}
+
+#aboutSection {
+    position: absolute;
+    top: 0px;
+}
+
+#firstGradient {
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    
+    /* background gradient */
+    background: #679fd8; /* Old browsers */
+    background: -moz-linear-gradient(top,  #ffffff 1%, #66b3e4 50%, #679fd8 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#ffffff), color-stop(50%,#66b3e4), color-stop(100%,#679fd8)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #ffffff 1%,#66b3e4 50%,#679fd8 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #ffffff 1%,#66b3e4 50%,#679fd8 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #ffffff 1%,#66b3e4 50%,#679fd8 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #ffffff 1%,#66b3e4 50%,#66b3e4 51%,#679fd8 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#679fd8',GradientType=0 ); /* IE6-9 */
+    ;
+    padding-bottom: 30px;
+}
+
+#secondGradient {
+    width: 100%;
+    height: 50%;
+    
+    /* background gradient */
+    background: #679fd8; /* Old browsers */
+    background: -moz-linear-gradient(bottom,  #ffffff 1%, #66b3e4 50%, #679fd8 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(1%,#ffffff), color-stop(50%,#66b3e4), color-stop(100%,#679fd8)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(bottom,  #ffffff 1%,#66b3e4 50%,#679fd8 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(bottom,  #ffffff 1%,#66b3e4 50%,#679fd8 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(bottom,  #ffffff 1%,#66b3e4 50%,#679fd8 100%); /* IE10+ */
+    background: linear-gradient(to top,  #ffffff 1%,#66b3e4 50%,#66b3e4 51%,#679fd8 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#679fd8',GradientType=0 ); /* IE6-9 */
+    ;
+}
+
+#thirdGradient {
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    
+    /* background gradient */
+    background: #679fd8; /* Old browsers */
+    background: -moz-linear-gradient(top,  #ffffff 1%, #67d4e4 50%, #67b5d8 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#ffffff), color-stop(50%,#67d4e4), color-stop(100%,#67b5d8)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #ffffff 1%,#67d4e4 50%,#67b5d8 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #ffffff 1%,#67d4e4 50%,#67b5d8 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #ffffff 1%,#67d4e4 50%,#67b5d8 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #ffffff 1%,#67d4e4 50%,#67d4e4 51%,#67b5d8 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#67b5d8',GradientType=0 ); /* IE6-9 */
+    ;
+    padding-bottom: 30px;
+}
+
+#expectationsSection
+{
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    
+    /* background gradient */
+    background: #679fd8; /* Old browsers */
+    background: -moz-linear-gradient(top,  #ffffff 1%, #66e3af 50%, #68d9bf 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#ffffff), color-stop(50%,#66e3af), color-stop(100%,#68d9bf)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #ffffff 1%,#66e3af 50%,#68d9bf 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #ffffff 1%,#66e3af 50%,#68d9bf 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #ffffff 1%,#66e3af 50%,#68d9bf 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #ffffff 1%,#66e3af 50%,#66e3af 51%,#68d9bf 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#68d9bf',GradientType=0 ); /* IE6-9 */
+    ;
+    padding-bottom: 30px;
+}
+
+#contactSection 
+{
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    
+    /* background gradient */
+    background: #679fd8; /* Old browsers */
+    background: -moz-linear-gradient(top,  #ffffff 1%, #79e366 50%, #68d96c 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#ffffff), color-stop(50%,#79e366), color-stop(100%,#68d96c)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #ffffff 1%,#79e366 50%,#68d96c 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #ffffff 1%,#79e366 50%,#68d96c 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #ffffff 1%,#79e366 50%,#68d96c 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #ffffff 1%,#79e366 50%,#79e366 51%,#68d96c 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#68d96c',GradientType=0 ); /* IE6-9 */
+    ;
+    padding-bottom: 30px;
+}
+header {
+    background: url(../images/flower-of-life-smaller.png) no-repeat 0 40px;
+    text-align: center;
+    width: 800px;
+    height: 140px;
+    margin: 0 auto 0 40px;
+    padding: 40px 0 0 0;
+}
+
+#logo {
+    padding-top: 18px;
+    margin-left: 0px;
+}
+
+#logo a {
+    font-family: hero_lightlight;
+    font-size: 55px;
+    color: #656565;
+    letter-spacing: 4px;
+    font-weight: 100;
+}
+
+nav {
+    padding-left: 170px;
+    margin-top: 8px;
+}
+
+li {
+    float: left;
+    margin-left: 18px;
+}
+
+li a {
+    font-family: hero_lightlight;
+    font-size: 18px;
+    color: #656565;
+    text-transform: lowercase;
+    letter-spacing: 2px;
+}
+
+li a:hover {
+    color: black;
+}
+
+li:first-child {
+    margin-left: 0px;
+}
+
+#content {
+    margin: 30px 0 30px 0;
+    
+    padding: 20px 190px 20px 190px;
+    background-color: rgba(255,255,255,.2);
+    font-family: verdana;
+    font-size: small;
+}

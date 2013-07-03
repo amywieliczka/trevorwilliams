@@ -1,0 +1,111 @@
+#firstGradient {
+    width: 100%;
+    
+    /* background gradient */
+    background: #679fd8; /* Old browsers */
+    background-image: url(../images/background-row-lg-end-2.png) repeat-y center top;
+    background: url(../images/background-row-lg-end-2.png) repeat-y center top, -moz-linear-gradient(top,  #ffffff 1%, #66b3e4 50%, #679fd8 100%); /* FF3.6+ */
+    background: url(../images/background-row-lg-end-2.png) repeat-y center top, -webkit-gradient(linear, left top, left bottom, color-stop(1%,#ffffff), color-stop(50%,#66b3e4), color-stop(100%,#679fd8)); /* Chrome,Safari4+ */
+    background: url(../images/background-row-lg-end-2.png) repeat-y center top, -webkit-linear-gradient(top,  #ffffff 1%,#66b3e4 50%,#679fd8 100%); /* Chrome10+,Safari5.1+ */
+    background: url(../images/background-row-lg-end-2.png) repeat-y center top, -o-linear-gradient(top,  #ffffff 1%,#66b3e4 50%,#679fd8 100%); /* Opera 11.10+ */
+    background: url(../images/background-row-lg-end-2.png) repeat-y center top, -ms-linear-gradient(top,  #ffffff 1%,#66b3e4 50%,#679fd8 100%); /* IE10+ */
+    background: url(../images/background-row-lg-end-2.png) repeat-y center top, linear-gradient(to bottom,  #ffffff 1%,#66b3e4 50%,#66b3e4 51%,#679fd8 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#679fd8',GradientType=0 ); /* IE6-9 */
+    ;
+}
+
+header {
+    background: url(../images/flower-of-life-smaller.png) no-repeat top left;
+    text-align: center;
+    width: 800px;
+    height: 140px;
+    margin: 40px auto 0 40px;
+}
+
+#logo {
+    padding-top: 18px;
+    margin-left: 0px;
+}
+
+#logo a {
+    font-family: hero_lightlight;
+    font-size: 55px;
+    color: #656565;
+    letter-spacing: 4px;
+    font-weight: 100;
+}
+
+nav {
+    padding-left: 170px;
+    margin-top: 8px;
+}
+
+li {
+    float: left;
+    margin-left: 18px;
+}
+
+li a {
+    font-family: hero_lightlight;
+    font-size: 18px;
+    color: #656565;
+    text-transform: lowercase;
+    letter-spacing: 2px;
+}
+
+li:first-child {
+    margin-left: 0px;
+}
+
+#content {
+    position: relative;
+    top: 30px;
+
+    padding: 20px 190px 20px 190px;
+    background-color: rgba(255,255,255,.2);
+    font-family: verdana;
+    font-size: small;
+}
+
+#contentBg {
+    display: block;
+    position: absolute;
+    top: 200px;
+    bottom: 100px;
+    width: 100%;
+    background-color: rgba(255,255,255,.2);
+}
+
+#innerContent {
+    position: absolute;
+    top: 200px;
+    left: 550px;
+    right: 190px;
+    
+    font-family: verdana;
+    font-size: small;
+    z-index: 10;
+}
+
+#outerContent {
+    position: absolute;
+    top: 200px;
+    
+    background-color: blue;
+    width: 4px;
+}
+
+/*#footer {
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    height: 30px;
+    width: 100%;
+    background-color: blue;
+
+    z-index: 20;
+}*/
+
+p {
+    padding-bottom: 15px;
+}

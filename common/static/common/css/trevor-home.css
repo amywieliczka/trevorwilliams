@@ -1,0 +1,46 @@
+body {
+    background: #679fd8; /* Old browsers */
+    background-image: url(../images/background-row-lg-end-2.png) repeat-y center top;
+    background-image: url(../images/flower-of-life-dark.png) no-repeat center 120px;
+    background: url(../images/flower-of-life-dark.png) no-repeat center 120px, url(../images/background-row-lg-end-2.png) repeat-y center top, -moz-linear-gradient(top,  #ffffff 1%, #66b3e4 50%, #679fd8 100%); /* FF3.6+ */
+    background: url(../images/flower-of-life-dark.png) no-repeat center 120px, url(../images/background-row-lg-end-2.png) repeat-y center top, -webkit-gradient(linear, left top, left bottom, color-stop(1%,#ffffff), color-stop(50%,#66b3e4), color-stop(100%,#679fd8)); /* Chrome,Safari4+ */
+    background: url(../images/flower-of-life-dark.png) no-repeat center 120px, url(../images/background-row-lg-end-2.png) repeat-y center top, -webkit-linear-gradient(top,  #ffffff 1%,#66b3e4 50%,#679fd8 100%); /* Chrome10+,Safari5.1+ */
+    background: url(../images/flower-of-life-dark.png) no-repeat center 120px, url(../images/background-row-lg-end-2.png) repeat-y center top, -o-linear-gradient(top,  #ffffff 1%,#66b3e4 50%,#679fd8 100%); /* Opera 11.10+ */
+    background: url(../images/flower-of-life-dark.png) no-repeat center 120px, url(../images/background-row-lg-end-2.png) repeat-y center top, -ms-linear-gradient(top,  #ffffff 1%,#66b3e4 50%,#679fd8 100%); /* IE10+ */
+    background: url(../images/flower-of-life-dark.png) no-repeat center 120px, url(../images/background-row-lg-end-2.png) repeat-y center top, linear-gradient(to bottom,  #ffffff 1%,#66b3e4 50%,#66b3e4 51%,#679fd8 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#679fd8',GradientType=0 ); /* IE6-9 */
+}
+
+header {
+    text-align: center;
+    width: 800px;
+    margin: 510px auto 0 auto;
+    font-family: hero_lightlight;
+    font-size: 95px;
+    color: #f8d548;
+    position: relative;
+    letter-spacing: 4px;
+    font-weight: 100;
+}
+
+nav {
+    width: 781px;
+    margin: 10px auto 0 auto;
+}
+
+li {
+    float: left;
+    margin-left: 45px;
+}
+
+li a {
+    font-family: hero_lightlight;
+    font-size: 30px;
+    color: #f8d548;
+    text-transform: lowercase;
+    letter-spacing: 2px;
+}
+
+li:first-child {
+    margin-left: 0px;
+}
